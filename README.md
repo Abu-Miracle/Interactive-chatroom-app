@@ -2,6 +2,7 @@ The setup process for this project is very easy
 1.	First of all, create a new folder and name it accordingly. Open the folder using Visual Studio Code or any suitable text editor. 
 2.	Then simply create two python files within the created folder, one for the server – ‘server.py’ and the other for the client – ‘client.py’
 
+
 2.1 SETTING UP SERVER NODE
 •	In the server file, you first need to import the necessary libraries that enables operations to be carried out.
 import threading
@@ -73,6 +74,8 @@ def receive():
 
 print("SERVER IS ACTIVE...")
 receive()
+
+
 2.2 SETTING UP CLIENT NODE
 •	We first need to import the necessary libraries that will enable us to carry out operations on the client side. This also includes the libraries responsible for creatin the interface.
  import socket
